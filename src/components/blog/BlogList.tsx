@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { fadeIn } from '../../framerMotion/variants';
 import { FiArrowLeft, FiCalendar, FiClock, FiExternalLink } from 'react-icons/fi';
 import { blogPosts } from '../../data/blogData';

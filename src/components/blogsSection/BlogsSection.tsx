@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { fadeIn } from "../../framerMotion/variants";
 import { FiExternalLink, FiCalendar, FiClock } from "react-icons/fi";
 import { Link } from "react-router-dom";

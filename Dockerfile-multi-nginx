@@ -1,0 +1,29 @@
+# Base image
+FROM node:24-alpine AS builder
+
+# Set working directory
+WORKDIR /APP
+
+# COPY DEPENDENCIES FILES
+COPY package.json package-lock.json ./
+
+# INSTALL DEPS
+RUN npm ci
+
+# COPY ALL FILES Source code
+COPY . .
+
+# BUILD THE APP
+RUN npm run build
+
+# Stage 2: Serve the app with nginx
+FROM nginx:alpine
+
+# COPY Built files from builder stage
+COPY --from=builder  /APP/dist /usr/share/nginx/html
+
+# EXPOSE PORT
+EXPOSE 80
+
+# START NGINX SERVER
+CMD ["nginx", "-g", "daemon off;"]

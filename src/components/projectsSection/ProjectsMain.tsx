@@ -1,6 +1,6 @@
 import ProjectText from "./ProjectText";
 import SingleProject from "./SingleProject";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { fadeIn } from "../../framerMotion/variants";
 import { projects } from "../../constants/projectsData";
 import { useTranslation } from "react-i18next";

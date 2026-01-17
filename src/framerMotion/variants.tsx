@@ -1,6 +1,8 @@
+import { Variants } from "motion/react";
+
 type Direction = "up" | "down" | "left" | "right";
 
-export const fadeIn = (direction: Direction, delay: number) => {
+export const fadeIn = (direction: Direction, delay: number): Variants => {
     return {
         hidden: {
             y: direction === "up" ? 40 : direction === "down" ? -40 : 0,
@@ -12,10 +14,10 @@ export const fadeIn = (direction: Direction, delay: number) => {
             x: 0,
             opacity: 1,
             transition: {
-                type: "tween",
+                type: "tween" as const,
                 duration: 1.2,
                 delay: delay,
-                ease: [0.25, 0.25, 0.25, 0.75],
+                ease: [0.25, 0.25, 0.25, 0.75] as const,
             },
         },
     };

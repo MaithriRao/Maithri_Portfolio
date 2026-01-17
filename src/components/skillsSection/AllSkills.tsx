@@ -1,5 +1,5 @@
 import SingleSkill from "./SingleSkill";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { fadeIn } from "../../framerMotion/variants";
 import { skills } from "../../constants/skillsData";
 
