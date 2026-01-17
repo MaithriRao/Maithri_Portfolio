@@ -1,4 +1,4 @@
-# Ankita Behura - Portfolio
+# Kavu Maithri Rao - Portfolio
 
 A modern, responsive portfolio website built with React, TypeScript, and Vite. This portfolio showcases my skills, experience, and projects with a beautiful UI and smooth animations.
 

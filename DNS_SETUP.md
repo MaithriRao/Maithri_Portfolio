@@ -1,4 +1,4 @@
-# 🌐 DNS Configuration for behura.com
+# 🌐 DNS Configuration for maithri-rao.com
 
 ## DNS Records to Add (in your domain registrar)
 
@@ -20,7 +20,7 @@ TTL: 3600 (or Auto)
 
 ## Where to Add These Records:
 
-### If you bought behura.com from:
+### If you bought maithri-rao.com from:
 - **GoDaddy**: Go to Domain Manager → DNS Management
 - **Namecheap**: Go to Domain List → Manage → Advanced DNS
 - **Cloudflare**: Go to DNS → Records
@@ -31,20 +31,20 @@ TTL: 3600 (or Auto)
 1. **Add DNS records** as shown above
 2. **Wait 5-24 hours** for DNS propagation
 3. **Check status** in Vercel dashboard
-4. **Your site will be live** at https://behura.com
+4. **Your site will be live** at https://maithri-rao.com
 
 ## Quick Test Commands:
 ```bash
 # Check if DNS is propagating
-nslookup behura.com
+nslookup maithri-rao.com
 
 # Check if site is live
-curl -I https://behura.com
+curl -I https://maithri-rao.com
 ```
 
 ## What Your Site Will Have:
-- ✅ **https://behura.com** → Your portfolio
-- ✅ **https://behura.com/#Blogs** → Blog section
+- ✅ **https://maithri-rao.com** → Your portfolio
+- ✅ **https://maithri-rao.com/#Blogs** → Blog section
 - ✅ **SSL Certificate** (automatic)
 - ✅ **Global CDN** (fast loading worldwide)
 - ✅ **Automatic deployments** from GitHub

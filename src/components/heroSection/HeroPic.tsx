@@ -15,7 +15,7 @@ const HeroPic = () => {
         <div className="relative z-10">
           <img
             src="/images/folio-web.jpg"
-            alt="Ankita Behura"
+            alt="Kavu Maithri Rao"
             className="w-48 h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full object-cover object-top shadow-2xl border-4 border-slate-700/50"
           />
         </div>

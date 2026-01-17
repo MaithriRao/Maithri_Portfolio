@@ -8,11 +8,11 @@ const ContactSocial = () => {
       {" "}
       {/* Hide on small devices */}
       <SingleContactSocial
-        link="https://www.linkedin.com/in/ankita-behura-ba6579192/"
+        link="https://www.linkedin.com/in/maithri-rao/"
         Icon={FaLinkedinIn}
       />
       <SingleContactSocial
-        link="https://github.com/AnkitaB5007"
+        link="https://github.com/MaithriRao/"
         Icon={FiGithub}
       />
     </div>

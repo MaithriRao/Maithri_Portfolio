@@ -30,6 +30,7 @@ const ProjectsMain = () => {
               align={project.align}
               image={project.image}
               link={project.link}
+              slug={project.slug}
             />
           );
         })}

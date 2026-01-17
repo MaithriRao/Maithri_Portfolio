@@ -18,7 +18,7 @@ const AboutMeHero = () => {
         <div className="relative">
           <img
             src="/images/folio-web.jpg"
-            alt="Ankita Behura"
+            alt="Kavu Maithri Rao"
             className="w-40 h-40 md:w-48 md:h-48 lg:w-56 lg:h-56 rounded-full object-cover object-top shadow-lg border-2 border-slate-600/30"
           />
         </div>
@@ -34,7 +34,7 @@ const AboutMeHero = () => {
       >
         <div className="mb-8">
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4">
-            Ankita <span className="text-cyan-400">Behura</span>
+            Kavu Maithri <span className="text-cyan-400">Rao</span>
           </h1>
           <div className="w-16 h-0.5 bg-gradient-to-r from-blue-500 to-cyan-500 mx-auto mb-6"></div>
         </div>
