@@ -4,35 +4,32 @@ export interface Project {
     align: "left" | "right";
     image: string;
     link: string;
+    slug: string;
 }
 
 export const projects: Project[] = [
     {
-        name: "your-project-1",
-        year: "2024",
+        name: "Sign Language Video Segmentation using Temporal Boundary Identification",
+        year: "2025",
         align: "right",
-        image: "/images/website-img-1.jpg",
-        link: "https://github.com/your-username/your-project-1",
+        image: "/images/sign_portfolio.jpg",
+        link: "https://github.com/MaithriRao/Thesis",
+        slug: "sign-language-video-segmentation",
     },
     {
-        name: "your-project-2",
-        year: "2024",
+        name: "End-to-End MLOps Pipeline: Real-Time YouTube Sentiment Analysis via AWS CI/CD",
+        year: "2025",
         align: "left",
-        image: "/images/website-img-2.webp",
-        link: "https://github.com/your-username/your-project-2",
+        image: "/images/yt.jpg",
+        link: "https://github.com/MaithriRao/YouTube-Sentiment-Analysis",
+        slug: "end-to-end-mlops-pipeline",
     },
     {
-        name: "your-project-3",
-        year: "2023",
+        name: "RAG Medical Chatbot with LLMs, LangChain, Pinecone, Flask & AWS",
+        year: "2025",
         align: "right",
         image: "/images/website-img-3.jpg",
-        link: "https://github.com/your-username/your-project-3",
-    },
-    {
-        name: "your-project-4",
-        year: "2023",
-        align: "left",
-        image: "/images/website-img-4.jpg",
-        link: "https://github.com/your-username/your-project-4",
+        link: "https://github.com/MaithriRao/Medical-RAG-Chatbot-with-LLMs-LangChain-Pinecone-Flask-AWS",
+        slug: "rag-medical-chatbot",
     },
 ];

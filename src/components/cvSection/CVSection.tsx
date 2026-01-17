@@ -9,8 +9,8 @@ const CVSection = () => {
   const handleDownloadCV = () => {
     // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/cv/ankita-behura-cv.pdf'; // Place your CV in public/cv/ folder
-    link.download = 'Ankita_Behura_CV.pdf';
+    link.href = '/cv/CV_KavuMaithriRao.pdf'; // Place your CV in public/cv/ folder
+    link.download = 'CV_KavuMaithriRao.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -46,16 +46,16 @@ const CVSection = () => {
               {/* PDF Embed */}
               <div className="w-full h-[600px] lg:h-[700px]">
                 <iframe
-                  src="/cv/ankita-behura-cv.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                  src="/cv/CV_KavuMaithriRao.pdf#toolbar=0&navpanes=0&scrollbar=0"
                   width="100%"
                   height="100%"
                   className="border-0"
-                  title="Ankita Behura CV"
+                  title="Kavu Maithri Rao CV"
                 >
                   <p className="text-center text-slate-600 p-8">
                     Your browser does not support PDF preview. 
                     <a 
-                      href="/cv/ankita-behura-cv.pdf" 
+                      href="/cv/CV_KavuMaithriRao.pdf" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="text-blue-500 hover:underline ml-2"
@@ -90,18 +90,13 @@ const CVSection = () => {
               {/* CV Stats */}
               <div className="mt-8 grid grid-cols-2 gap-4">
                 <div className="text-center p-4 bg-slate-700/50 rounded-lg">
-                  <div className="text-2xl font-bold text-cyan">5+</div>
+                  <div className="text-2xl font-bold text-cyan">3+</div>
                   <div className="text-sm text-slate-400">Years Experience</div>
                 </div>
                 <div className="text-center p-4 bg-slate-700/50 rounded-lg">
                   <div className="text-2xl font-bold text-cyan">20+</div>
                   <div className="text-sm text-slate-400">Projects</div>
                 </div>
-              </div>
-
-              {/* Last Updated */}
-              <div className="mt-6 text-sm text-slate-500 text-center lg:text-left">
-                Last updated: {t("cvSection.cv_last_updated")}
               </div>
             </div>
           </div>

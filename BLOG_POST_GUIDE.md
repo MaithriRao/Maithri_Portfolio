@@ -318,8 +318,8 @@ git push origin master
 
 ## 🌐 Live URLs
 After deployment, your blog will be available at:
-- Blog list: `https://behura.com/blogs`
-- Individual posts: `https://behura.com/blog/your-post-slug`
+- Blog list: `https://maithri-rao.com/blogs`
+- Individual posts: `https://maithri-rao.com/blog/your-post-slug`
 
 ## 📞 Need Help?
 If you encounter issues:

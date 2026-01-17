@@ -17,22 +17,31 @@ export interface BlogPostMeta extends BlogPostMetaData {
 
 // Your actual blog posts metadata - just add new posts, IDs auto-generated!
 const blogPostsRawData: Omit<BlogPostMetaData, 'content'>[] = [
-  {
-    title: "LangChain: An Overview of Its Core Components",
-    date: "2025-09-18",
-    summary: "At its foundation, LangChain is built around six major components: Models, Prompts, Chains, Memory, Indexes, and Agents.",
-    tags: ["AI", "LangChain", "LLM"],
+    {
+    title: "Soft Prompting- Explained Simply",
+    date: "2025-11-23",
+    summary: "Soft prompting uses trainable vectors to adapt large language models without manually crafting prompts for each task.",
+    tags: ["AI", "LLMs","NLP", "PromptEngineering","PEFT"],
     categories: ["AI"],
-    slug: "langchain-an-overview",
+    slug: "softPrompting",
     readTime: "7 min read"
   },
   {
-    title: "Model Context Protocol: Architecture Explained",
-    date: "2025-09-14",
-    summary: "Breaking down the architecture of Model Context Protocol with analogies and examples.",
-    tags: ["AI", "Anthropic", "JSON-RPC 2.0", "Model Context Protocol", "MCP"],
+    title: "AI Agents vs. Agentic AI",
+    date: "2025-10-10",
+    summary: "At its foundation, LangChain is built around six major components: Models, Prompts, Chains, Memory, Indexes, and Agents.",
+    tags: ["AgenticAI", "AIagents", "AI"],
     categories: ["AI"],
-    slug: "model-context-protocol-arch",
+    slug: "AI Agents vs. Agentic AI",
+    readTime: "7 min read"
+  },
+  {
+    title: "Is Your AI Content Sounding .... Identical?",
+    date: "2025-10-25",
+    summary: "Breaking down the architecture of Model Context Protocol with analogies and examples.",
+    tags: ["GenerativeAI", "Diversity", "AIEthics", "LLM", "FutureOfWork", "ContentStrategy"],
+    categories: ["AI"],
+    slug: "AI-Content-Sounding-Identical",
     readTime: "7 min read"
   },
   {

@@ -1,0 +1,3 @@
+nodejs
+vite
+typescript # tsc

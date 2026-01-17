@@ -4,13 +4,14 @@ import { motion } from "motion/react";
 import { fadeIn } from "../../framerMotion/variants";
 import { Project } from "../../constants/projectsData";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 const SingleProject: React.FC<Project> = ({
   name,
   year,
   align,
   image,
-  link,
+  slug,
 }) => {
   const { t } = useTranslation();
   return (
@@ -32,16 +33,16 @@ const SingleProject: React.FC<Project> = ({
         >
           {year}
         </h2>
-        <a
-          href={link}
-          target="_blank"
+        <Link
+          to={`/projects/${slug}`}
           className={`text-lg flex gap-2 items-center text-cyan hover:text-orange transition-all duration-500 cursor-pointer sm:justify-self-center ${
             align === "left" ? "md:justify-self-end" : "md:justify-self-start"
           }`}
         >
-          {t("projectsSection.projects_btn_view")}{" "}
+          {t("projectsSection.projects_btn_view")}
           <BsFillArrowUpRightCircleFill />
-        </a>
+        </Link>
+
       </div>
       <div
         className="max-h-[220px] max-w-[400px] rounded-xl overflow-hidden

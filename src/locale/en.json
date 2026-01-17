@@ -2,9 +2,11 @@
 "navBar": {
 "nav_link_about": "About Me",
 "nav_link_skills": "Skills",
+"nav_link_experience": "Experience",
 "nav_link_cv": "CV",
 "nav_link_projects": "Projects",
-"nav_link_blogs": "Blogs"
+"nav_link_blogs": "Blogs",
+"nav_link_publications": "Publications"
 },
 "heroSection": {
 "hero_text_designation": "AI & Machine Learning Engineer",
@@ -20,8 +22,8 @@
 },
 "aboutMeSection": {
 "aboutMe_text": "About Me",
-"aboutMe_text_intro": "I'm Ankita, a passionate AI & Machine Learning Engineer dedicated to transforming data into impactful digital solutions. With a strong foundation in modern ML technologies and a keen eye for problem-solving, I turn complex ideas into functional, intelligent applications. I thrive on developing robust systems and continuously learning new technologies to stay at the forefront of the AI domain.",
-"aboutMe_text_connect": "Let's collaborate and build something amazing together!",
+"aboutMe_text_intro": "I'm Kavu Maithri, a passionate AI & Machine Learning Engineer with experience building and deploying practical AI solutions across NLP, generative AI, and computer vision. I enjoy turning complex problems into reliable, real world systems and working in collaborative, international teams.",
+"aboutMe_text_connect":"I work primarily in English and have German proficiency at B1 level. Outside of work, I'm a pet lover, enjoy bike trips, and like reading in my free time. Let's collaborate and build something amazing together!",
 "aboutMe_btn_text_projects": "My Projects",
 "aboutMe_btn_link_projects": "Projects"
 },
@@ -54,66 +56,21 @@
 "experience_text_since_year": "Since 2022",
 "experience_text_years": "years",
 "experience_text_websites": "websites",
-"experience_text_shortDesc": "With X years of experience building and deploying robust, scalable AI solutions.",
-"experience_text_customers": "customers",
-"experience_text_new_users_monthly": "New Users monthly",
-"experience_text_logins_per_month": "Logins per month",
-"experience_text_shortDesc_note": "*Update with your current company details",
-"experienceDetails_text": {
-"specialization": "I specialize in",
-"technologies": "PyTorch, scikit-learn, and modern Python-based frameworks",
-"description": "leveraging best practices to create scalable and maintainable solutions.",
-"handsOnExperience": "Additionally, I have hands-on experience with",
-"backendTechnology": "Docker, Kubernetes, and AWS/GCP",
-"understanding": "enabling me to understand and contribute to the full MLOps lifecycle, from development to production.",
-"overallExperience": "My experience spans a variety of projects, from research-focused modeling to complex",
-"projectType": "end-to-end AI systems",
-"codeQuality": "where I consistently prioritize clean code and exceptional model performance.",
-"integration": "By bridging the gap between data science and DevOps, I ensure seamless functionality and integration across all layers of the application."
+"experience_text_shortDesc": "With X years of experience building and deploying robust, scalable AI solutions."
 },
-"experienceAllYearCategorization": [
-{
-"indexNo": 1,
-"job": "Your Current Position",
-"company": "Your Current Company",
-"location": "Your Location",
-"date": "Start Date - Present",
-"responsibilities": [
-"Update with your current responsibilities",
-"Add your key achievements",
-"Include technologies you work with",
-"Mention any leadership or project management roles"
-]
+"cvSection": {
+  "cv_text": "CV",
+  "cv_title": "Download My Resume",
+  "cv_description": "Get a detailed overview of my professional experience, education, skills, and achievements in a comprehensive PDF format.",
+  "cv_download_btn": "Download CV"
 },
-{
-"indexNo": 2,
-"job": "Previous Position",
-"company": "Previous Company",
-"location": "Location",
-"date": "Start Date - End Date",
-"responsibilities": [
-"Add your previous role responsibilities",
-"Include key projects and achievements",
-"Mention technologies and frameworks used",
-"Highlight any team collaboration or mentoring"
-]
-}
-]
+"blogsSection": {
+  "blogs_text": "Blogs",
+  "blogs_description": "Sharing insights, tutorials, and thoughts on technology, development, and industry trends through my writing."
 },
-  "cvSection": {
-    "cv_text": "CV",
-    "cv_title": "Download My Resume",
-    "cv_description": "Get a detailed overview of my professional experience, education, skills, and achievements in a comprehensive PDF format.",
-    "cv_download_btn": "Download CV",
-    "cv_last_updated": "March 2024"
-  },
-  "blogsSection": {
-    "blogs_text": "Blogs",
-    "blogs_description": "Sharing insights, tutorials, and thoughts on technology, development, and industry trends through my writing."
-  },
-  "projectsSection": {
+"projectsSection": {
 "projects_text": "Projects",
 "projects_shortDesc": "I have worked on a variety of machine learning projects, ranging from data analysis and model training to full-stack applications with AI components. Each project demonstrates my commitment to clean code, performance optimization, and technical excellence.",
-"projects_btn_view": "Github"
+"projects_btn_view": "Read more"
 }
 }

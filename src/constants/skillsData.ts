@@ -1,7 +1,6 @@
 import { IconType } from "react-icons";
-import { FaPython, FaDocker, FaAws, FaGitAlt, FaLinux, FaDatabase } from "react-icons/fa";
-import { SiTensorflow, SiPytorch, SiKubernetes, SiJenkins, SiPostgresql, SiScikitlearn, SiJupyter, SiPrometheus, SiGrafana } from "react-icons/si";
-import { VscAzure } from "react-icons/vsc";
+import { FaPython, FaDocker, FaAws, FaGitAlt, FaLinux, FaDatabase, FaBrain, FaComments } from "react-icons/fa";
+import { SiPytorch, SiGrafana, SiLangchain, SiNixos, SiMlflow} from "react-icons/si";
 
 interface Skill {
   skill: string;
@@ -14,52 +13,40 @@ export const skills: Skill[] = [
     icon: FaPython,
   },
   {
-    skill: "TensorFlow",
-    icon: SiTensorflow,
-  },
-  {
     skill: "PyTorch",
     icon: SiPytorch,
   },
   {
-    skill: "Scikit-Learn",
-    icon: SiScikitlearn,
+    skill: "LangChain",
+    icon: SiLangchain,
+  },
+  {
+    skill: "SQL",
+    icon: FaDatabase,
+  },
+  {
+    skill: "AI/ML",
+    icon: FaBrain,
+  },
+  {
+    skill: "RAG/LLM",
+    icon: FaComments,
+  },
+  {
+    skill: "Mlflow",
+    icon: SiMlflow,
   },
   {
     skill: "Docker",
     icon: FaDocker,
   },
   {
-    skill: "Kubernetes",
-    icon: SiKubernetes,
-  },
-  {
     skill: "AWS",
     icon: FaAws,
   },
   {
-    skill: "Azure",
-    icon: VscAzure,
-  },
-  {
-    skill: "Jenkins",
-    icon: SiJenkins,
-  },
-  {
-    skill: "PostgreSQL",
-    icon: SiPostgresql,
-  },
-  {
-    skill: "Jupyter",
-    icon: SiJupyter,
-  },
-  {
     skill: "ChromaDB",
     icon: FaDatabase,
-  },
-  {
-    skill: "Prometheus",
-    icon: SiPrometheus,
   },
   {
     skill: "Grafana",
@@ -72,5 +59,9 @@ export const skills: Skill[] = [
   {
     skill: "Linux",
     icon: FaLinux,
+  },
+  {
+    skill: "Nixos",
+    icon: SiNixos,
   },
 ];
