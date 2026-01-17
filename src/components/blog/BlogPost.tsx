@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion } from 'motion/react';
 import { fadeIn } from '../../framerMotion/variants';
 import { FiArrowLeft, FiCalendar, FiClock } from 'react-icons/fi';
 import ReactMarkdown from 'react-markdown';

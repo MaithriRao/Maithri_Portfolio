@@ -1,6 +1,6 @@
 import React from "react";
 import { BsFillArrowUpRightCircleFill } from "react-icons/bs";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { fadeIn } from "../../framerMotion/variants";
 import { Project } from "../../constants/projectsData";
 import { useTranslation } from "react-i18next";
