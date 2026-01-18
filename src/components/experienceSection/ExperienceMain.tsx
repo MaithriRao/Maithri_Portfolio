@@ -1,10 +1,6 @@
-import ExperienceTop from "./ExperienceTop";
-import ExperienceText from "./ExperienceText";
-import AllExperiences from "./AllExperiences";
-import { motion } from "motion/react";
-import { fadeIn } from "../../framerMotion/variants";
-import { useTranslation } from "react-i18next";
-import { useEffect, useState } from "react"; // Import useEffect and useState
+import ExperienceCard from "./ExperienceCard";
+
+const experiences: any[] = [];
 
 const ExperienceMain = () => {
   return (
